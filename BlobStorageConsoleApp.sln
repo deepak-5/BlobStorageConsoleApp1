@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobStorageConsoleApp", "BlobStorageConsoleApp\BlobStorageConsoleApp.csproj", "{6681484A-6EFD-4212-95E5-85ECF8EDC398}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KeyVaults", "KeyVaults\KeyVaults.csproj", "{EF5CE241-5164-47A8-AB92-40765DA836A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceBus", "ServiceBus\ServiceBus.csproj", "{D956F2E5-CFBD-4E84-9556-49A2DDB2C799}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventGrid", "EventGrid\EventGrid.csproj", "{7F893224-1CFA-4CCE-A1D6-BEBB7DF71C9A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CosmosDb", "CosmosDb\CosmosDb.csproj", "{AA207977-8D7F-46F9-B205-C81A1711AF72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureAuthWebApp", "AzureAuthWebApp", "{D1083575-ADB5-4EF3-80EF-DC46D7F73802}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppModelv2-WebApp-OpenIDConnect-DotNet", "AzureAuthWebApp\AppModelv2-WebApp-OpenIDConnect-DotNet\AppModelv2-WebApp-OpenIDConnect-DotNet.csproj", "{B1683E5F-00E4-4690-97AE-1C94A4F9FC82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6681484A-6EFD-4212-95E5-85ECF8EDC398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6681484A-6EFD-4212-95E5-85ECF8EDC398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6681484A-6EFD-4212-95E5-85ECF8EDC398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6681484A-6EFD-4212-95E5-85ECF8EDC398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF5CE241-5164-47A8-AB92-40765DA836A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5CE241-5164-47A8-AB92-40765DA836A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5CE241-5164-47A8-AB92-40765DA836A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5CE241-5164-47A8-AB92-40765DA836A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D956F2E5-CFBD-4E84-9556-49A2DDB2C799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D956F2E5-CFBD-4E84-9556-49A2DDB2C799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D956F2E5-CFBD-4E84-9556-49A2DDB2C799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D956F2E5-CFBD-4E84-9556-49A2DDB2C799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F893224-1CFA-4CCE-A1D6-BEBB7DF71C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F893224-1CFA-4CCE-A1D6-BEBB7DF71C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F893224-1CFA-4CCE-A1D6-BEBB7DF71C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F893224-1CFA-4CCE-A1D6-BEBB7DF71C9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA207977-8D7F-46F9-B205-C81A1711AF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA207977-8D7F-46F9-B205-C81A1711AF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA207977-8D7F-46F9-B205-C81A1711AF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA207977-8D7F-46F9-B205-C81A1711AF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1683E5F-00E4-4690-97AE-1C94A4F9FC82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1683E5F-00E4-4690-97AE-1C94A4F9FC82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1683E5F-00E4-4690-97AE-1C94A4F9FC82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1683E5F-00E4-4690-97AE-1C94A4F9FC82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1683E5F-00E4-4690-97AE-1C94A4F9FC82} = {D1083575-ADB5-4EF3-80EF-DC46D7F73802}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8358F49-59D7-4F97-BA45-0E8637967226}
+	EndGlobalSection
+EndGlobal
